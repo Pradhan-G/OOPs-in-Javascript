@@ -6,9 +6,9 @@ const Person = function (firstName, birthYear) {
   this.birthYear = birthYear; //This is an Instance property
 
   // Never create a function inside a constructor and why, because this will create a new function for each instance.
-  this.calcAge = function () {
+  /*this.calcAge = function () {
     console.log(2037 - this.birthYear);
-  };
+  };*/
 };
 
 const jonas = new Person("John", 1990);
@@ -33,3 +33,17 @@ console.log(jonas instanceof Person);
 console.log(Harshit instanceof Person);
 console.log(Rahul instanceof Person);
 console.log(Rohit instanceof Person);
+
+// -----------------------------------------------------------
+
+// Prototypes
+// Every object has a prototype property which is an object
+// Every object has a constructor property which is a function
+
+Person.prototype.calcAge = function () {
+  console.log(2037 - this.birthYear);
+};
+Harshit.calcAge();
+Rahul.calcAge();
+
+console.log(jonas.__proto__);
