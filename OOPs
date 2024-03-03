@@ -1,0 +1,23 @@
+Q - What is OOPs ?
+
+It is a different way of writing Code by making classes and its instances known as objects and its attributes and methods known as properties and methods respectively.
+
+Q - What are classes ?
+
+It is a blueprint for creating objects.
+
+Q - What are Objects ?
+
+It is an instance of a class that we create using the new Keyword.
+
+Q - What is the new Keyword ?
+
+It is used to create objects.
+
+Q - What are the 4 main pillars of OOPs ?
+
+The 4 main pillars of OOPs in Javascript are the following
+1 - Abstraction - It is the process of hiding the details of implementation and showing only the essential features to the user.
+2 - Encapsulation - It is the process of binding the data and functions together. We need to hide the internal representation of the object and only provide the functionality to the user.
+3 - Inheritance - It is the process of creating a new class from an existing class and also the process of reusing the existing code.
+4 - Polymorphism - It is the process of using the same interface for different classes and also the process of creating a single interface and implementing it for different classes.
